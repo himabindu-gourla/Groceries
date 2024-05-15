@@ -1,0 +1,90 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar form {
+  display: flex;
+}
+
+.navbar input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.navbar button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.navbar button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-button {
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.dropdown-container:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.links-container a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.links-container span {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+  margin-left: 5px;
+}
